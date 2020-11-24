@@ -1,4 +1,4 @@
-package com.example.cocktailr_flutter;
+package com.example._flutter;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;

@@ -1,7 +1,7 @@
-import 'package:cocktailr_flutter/blocs/cocktail_bloc.dart';
-import 'package:cocktailr_flutter/views/add_suggestion_page.dart';
-import 'package:cocktailr_flutter/views/cocktail_list_page.dart';
-import 'package:cocktailr_flutter/views/ingredient_search_page.dart';
+import 'package:_flutter/blocs/cocktail_bloc.dart';
+import 'package:_flutter/views/add_suggestion_page.dart';
+import 'package:_flutter/views/cocktail_list_page.dart';
+import 'package:_flutter/views/ingredient_search_page.dart';
 import 'package:flutter/material.dart';
 
 class MainPage extends StatefulWidget {
@@ -29,7 +29,7 @@ class _MainPageState extends State<MainPage> {
     return Scaffold(
       appBar: AppBar(
         title:
-            _selectedPage == 0 ? Text('Cocktailr') : Text('Make a suggestion'),
+            _selectedPage == 0 ? Text('') : Text('Make a suggestion'),
         actions: <Widget>[
           _selectedPage == 0
               ? IconButton(

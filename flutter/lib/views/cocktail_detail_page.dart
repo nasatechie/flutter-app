@@ -1,5 +1,5 @@
-import 'package:cocktailr_flutter/blocs/cocktail_bloc.dart';
-import 'package:cocktailr_flutter/models/cocktail.dart';
+import 'package:_flutter/blocs/cocktail_bloc.dart';
+import 'package:_flutter/models/cocktail.dart';
 import 'package:flutter/material.dart';
 
 class CocktailDetailPage extends StatefulWidget {

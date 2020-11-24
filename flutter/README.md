@@ -1,4 +1,4 @@
-# cocktailr_flutter
+# _flutter
 
 A new Flutter project.
 

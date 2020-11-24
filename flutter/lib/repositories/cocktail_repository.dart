@@ -1,7 +1,7 @@
-import 'package:cocktailr_flutter/models/cocktail.dart';
-import 'package:cocktailr_flutter/network/cocktail_api.dart';
+import 'package:_flutter/models/cocktail.dart';
+import 'package:_flutter/network/cocktail_api.dart';
 
-class CocktailRepository {
+class epository {
   final cocktailApi = CocktailApi();
 
   Future<Cocktail> getCocktailDetails(Cocktail cocktail) => cocktailApi.getCocktailById(cocktail);

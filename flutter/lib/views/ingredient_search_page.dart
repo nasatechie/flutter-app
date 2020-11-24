@@ -1,4 +1,4 @@
-import 'package:cocktailr_flutter/blocs/cocktail_bloc.dart';
+import 'package:_flutter/blocs/cocktail_bloc.dart';
 import 'package:flutter/material.dart';
 
 class IngredientSearchPage extends StatefulWidget {

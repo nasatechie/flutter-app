@@ -1,5 +1,5 @@
-import 'package:cocktailr_flutter/models/cocktail.dart';
-import 'package:cocktailr_flutter/repositories/cocktail_repository.dart';
+import 'package:_flutter/models/cocktail.dart';
+import 'package:_flutter/repositories/cocktail_repository.dart';
 import 'package:rxdart/rxdart.dart';
 
 class CocktailBloc {
@@ -9,7 +9,7 @@ class CocktailBloc {
     return _instance;
   }
 
-  final _repository = CocktailRepository();
+  final _repository = epository();
 
   final _ingredientsFetcher = BehaviorSubject<List<String>>();
   final _cocktailsFetcher = BehaviorSubject<List<Cocktail>>();
